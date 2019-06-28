@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show BuildContext, Column, Expanded, StatelessWidget, Widget;
 
-import './products.dart';
+import './products.dart' show Products;
 
 class ProductManager extends StatelessWidget {
   final List<Map<String, dynamic>> products;

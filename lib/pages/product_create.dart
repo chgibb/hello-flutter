@@ -1,4 +1,21 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show
+        BuildContext,
+        Colors,
+        Container,
+        EdgeInsets,
+        InputDecoration,
+        ListView,
+        Navigator,
+        RaisedButton,
+        SizedBox,
+        State,
+        StatefulWidget,
+        Text,
+        TextField,
+        TextInputType,
+        Theme,
+        Widget;
 
 class ProductCreatePage extends StatefulWidget {
   final Function addProduct;

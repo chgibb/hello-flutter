@@ -1,4 +1,30 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show
+        Border,
+        BorderRadius,
+        BoxDecoration,
+        BuildContext,
+        ButtonBar,
+        Card,
+        Colors,
+        Column,
+        Container,
+        EdgeInsets,
+        FontWeight,
+        Icon,
+        IconButton,
+        Icons,
+        Image,
+        ListView,
+        MainAxisAlignment,
+        Navigator,
+        Row,
+        SizedBox,
+        StatelessWidget,
+        Text,
+        TextStyle,
+        Theme,
+        Widget;
 
 class Products extends StatelessWidget {
   final List<Map<String, dynamic>> products;
